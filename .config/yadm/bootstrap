@@ -1,2 +1,8 @@
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.github
+#!/bin/sh
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+curl -sS https://starship.rs/install.sh | sh
