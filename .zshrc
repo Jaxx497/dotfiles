@@ -22,11 +22,6 @@ compinit
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
-# ### ---- load pyenv ---------
-# export PYENV_ROOT="$HOME/.pyenv"
-# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
-
 zmodload zsh/complist
 setopt extendedglob
 _comp_options+=(globdots)
@@ -35,24 +30,23 @@ bindkey -v
 bindkey "^[[Z" autosuggest-accept
 bindkey -M viins 'kj' vi-cmd-mode
 
-
-alias cls='clear'
-alias zrc='source ~/.zshrc && clear'
-
-# Python shortcuts
-alias py=python3
-alias python=python3
-
-# Zypper shortcuts
-alias zyp='sudo zypper in'
-alias zypi='sudo zypper in'
-alias zypr='sudo zypper rm'
-
-# Nvim shortcuts
-alias nv='nvim .'
-alias nvl="NVIM_APPNAME=nvimlite nvim"
-alias nvco='cd ~/.config/nvim && nvim .'
-alias nvz='nvim ~/.zshrc'
+# alias cls='clear'
+# alias zrc='source ~/.zshrc && clear'
+#
+# # Python shortcuts
+# alias py=python3
+# alias python=python3
+#
+# # Zypper shortcuts
+# alias zyp='sudo zypper in'
+# alias zypi='sudo zypper in'
+# alias zypr='sudo zypper rm'
+#
+# # Nvim shortcuts
+# alias nv='nvim .'
+# alias nvl="NVIM_APPNAME=nvimlite nvim"
+# alias nvco='cd ~/.config/nvim && nvim .'
+# alias nvz='nvim ~/.zshrc'
 
 [[ -f $ZSH/plugins.zsh ]] && source $ZSH/plugins.zsh
-# [[ -f $ZSH/aliases.zsh ]] && source $ZSH/aliases.zsh
+[[ -f $ZSH/aliases.zsh ]] && source $ZSH/aliases.zsh
