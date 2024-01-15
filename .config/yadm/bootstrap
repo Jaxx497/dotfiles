@@ -2,6 +2,8 @@
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
+echo "[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh" >> ~/.zsh/plugins.zsh
+
 # ===================  
 # === ZSH PLUGINS ===
 # ===================  
@@ -25,7 +27,7 @@ echo 'eval "$(starship init zsh)"' >> ~/.zsh/plugins.zsh
 
 # ZOXIDE
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
-echo 'eval "$(zoxide init zsh)"'
+echo 'eval "$(zoxide init zsh --cmd j)"'
 
 sort -o ~/.zsh/plugins.zsh ~/.zsh/plugins.zsh 
 
