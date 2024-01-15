@@ -1,7 +1,40 @@
+# FZF
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+# ===================  
+# === ZSH PLUGINS ===
+# ===================  
+
+touch ~/.zsh/plugins.zsh # Create dir for zsh plugins
+
+# git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+# echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zsh/plugins.zsh
+
+# ZSH Autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/autosuggestions
+echo "source ~/.zsh/autosuggestions/zsh-autosuggestions.zsh" >> ~/.zsh/plugins.zsh
+
+# ZSH Fast-Syntax-Highlighting
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting ~/.zsh/fast-syntax-highlighting
+echo "source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh" >> ~/.zsh/plugins.zsh
+
+# STARSHIP
+curl -sS https://starship.rs/install.sh | sh
+echo 'eval "$(starship init zsh)"' >> ~/.zsh/plugins.zsh
+
+# ZOXIDE
+curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+echo 'eval "$(zoxide init zsh)"'
+
+sort -o ~/.zsh/plugins.zsh ~/.zsh/plugins.zsh 
+
+# ====================
+# === Install Rust ===
+# ====================
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+# Check for update if installed
+rustup update
 
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-
-curl -sS https://starship.rs/install.sh | sh
+echo "It's recommended you install rust, tmux, zellij, exa, and neovim!"
