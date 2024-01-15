@@ -4,7 +4,7 @@ SAVEHIST=100000
 unsetopt beep
 
 export ZSH=$HOME/.zsh
-export PATH=$HOME/bin:$PATH
+# export PATH=$HOME/bin:$PATH
 export KEYTIMEOUT=50;
 export TERM=xterm-256color
 
@@ -26,9 +26,10 @@ zmodload zsh/complist
 setopt extendedglob
 _comp_options+=(globdots)
 
-bindkey -v
-bindkey "^[[Z" autosuggest-accept
-bindkey -M viins 'kj' vi-cmd-mode
 
 [[ -f $ZSH/plugins.zsh ]] && source $ZSH/plugins.zsh
 [[ -f $ZSH/aliases.zsh ]] && source $ZSH/aliases.zsh
+
+bindkey -v
+bindkey "^[[Z" autosuggest-accept
+bindkey -M viins 'kj' vi-cmd-mode
