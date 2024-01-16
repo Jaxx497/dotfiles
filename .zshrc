@@ -3,8 +3,9 @@ HISTSIZE=100000
 SAVEHIST=100000
 unsetopt beep
 
+source ~/.profile
 export ZSH=$HOME/.zsh
-# export PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin:$PATH
 export KEYTIMEOUT=50;
 export TERM=xterm-256color
 
@@ -25,7 +26,6 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 zmodload zsh/complist
 setopt extendedglob
 _comp_options+=(globdots)
-
 
 [[ -f $ZSH/plugins.zsh ]] && source $ZSH/plugins.zsh
 [[ -f $ZSH/aliases.zsh ]] && source $ZSH/aliases.zsh

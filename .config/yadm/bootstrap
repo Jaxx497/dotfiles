@@ -1,49 +1,60 @@
-# FZF
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-echo "INSTALLED FZF"
+# ======================================
+# === INSTALL SAUCE CODE PRO NF BOLD ===
+# ======================================
+    
+    ### May need to update URL
 
-echo "[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh" >> ~/.zsh/plugins.zsh
-echo "Added FZF to plugins.zsh"
+font_url="https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/SourceCodePro/SauceCodeProNerdFont-Bold.ttf"
+font_name="Sauce Code Pro NF Bold"
+
+curl -fLo ~/.local/share/fonts/"$font_name" $font_url
 
 # ===================  
 # === ZSH PLUGINS ===
 # ===================  
 
-touch ~/.zsh/plugins.zsh # Create dir for zsh plugins
+touch ~/.zsh/plugins.zsh ### Create dir for zsh plugins
 
-# git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-# echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zsh/plugins.zsh
-
-# ZSH Autosuggestions
+    ### ZSH Autosuggestions ###
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/autosuggestions
 echo "source ~/.zsh/autosuggestions/zsh-autosuggestions.zsh" >> ~/.zsh/plugins.zsh
-echo "Added autosuggestions to plugins.zsh"
 
-# ZSH Fast-Syntax-Highlighting
+    ### ZSH Fast-Syntax-Highlighting ###
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting ~/.zsh/fast-syntax-highlighting
 echo "source ~/.zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh" >> ~/.zsh/plugins.zsh
-echo "Added Fast Syntax Highlighting to plugins.zsh"
 
-# STARSHIP
+echo "Added autosuggestions to plugins.zsh"
+echo "Added fast-syntax-highlighting to plugins.zsh"
+
+# ==================
+# === SHELL MODS ===
+# ==================
+
+    ### Starship ###
 curl -sS https://starship.rs/install.sh | sh
 echo 'eval "$(starship init zsh)"' >> ~/.zsh/plugins.zsh
-echo "Installed Starship"
 
-# ZOXIDE
+    ### Zoxide ###
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
 echo 'eval "$(zoxide init zsh --cmd j)"' >> ~/.zsh/plugins.zsh
-echo "Installed Zoxide"
+
+    ### FZF ###
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+echo "[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh" >> ~/.zsh/plugins.zsh
 
 sort -o ~/.zsh/plugins.zsh ~/.zsh/plugins.zsh 
+
+echo "Installed Starship"
+echo "Installed Zoxide"
+echo "Installed FZF"
 echo "Sorted plugins.zsh"
 
 # ====================
-# === Install Rust ===
+# === INSTALL RUST ===
 # ====================
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
-# Check for update if installed
-rustup update
-
-echo "It's recommended you install rust, tmux, zellij, exa, and neovim!"
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+#
+# rustup update
+#
+# echo "It's recommended you install rust, tmux, zellij, exa, and neovim!"
