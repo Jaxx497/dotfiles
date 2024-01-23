@@ -15,3 +15,6 @@ alias nv='nvim .'
 alias nvl="NVIM_APPNAME=nvimlite nvim"
 alias nvco='cd ~/.config/nvim && nvim .'
 alias nvz='nvim ~/.zshrc'
+
+
+alias cht='time zsh -i -c exit'
