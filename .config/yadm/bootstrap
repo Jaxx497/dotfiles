@@ -49,12 +49,3 @@ echo "Installed Starship"
 echo "Installed Zoxide"
 echo "Installed FZF"
 echo "Sorted plugins.zsh"
-
-# ====================
-# === INSTALL RUST ===
-# ====================
-# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-#
-# rustup update
-#
-# echo "It's recommended you install rust, tmux, zellij, exa, and neovim!"
