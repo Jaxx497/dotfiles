@@ -14,7 +14,6 @@ zstyle ':completion:*' menu select
 zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=* l:|=*'
 zstyle ':completion:*' special-dirs true
 zstyle ':completion:*' list-colors ''
-zstyle ':completion:*' completer, _complete _appproximate
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
 
 autoload -Uz compinit; compinit
@@ -29,6 +28,10 @@ _comp_options+=(globdots)
 [[ -f $ZSH/aliases.zsh ]] && source $ZSH/aliases.zsh
 
 bindkey -v
-bindkey "^[[Z" autosuggest-accept
-#bindkey "^[[Z" autosuggest-accept
+bindkey "^[[Z" autosuggest-execute
+bindkey "\C-j" autosuggest-execute
+bindkey "\C-k" up-line-or-search
+bindkey "\C-l" autosuggest-accept
 bindkey -M viins 'kj' vi-cmd-mode
+
+neofetch
