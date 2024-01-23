@@ -11,7 +11,7 @@
     "Ranger": "https://github.com/ranger/ranger",
     "VLC": "https://www.videolan.org/",
     "Yadm": "https://yadm.io/docs/",
-    "YT-DLP": "https://github.com/yt-dlp/yt-dlp",
+    "YT-DLP": "https://github.com/yt-dlp/yt-dlp"
   },
 
   "Programming": {
@@ -24,7 +24,7 @@
     "Eza": "cargo install exa",
     "NuShell": "> cargo install nu --locked --features=dataframe",
     "RipGrep": "cargo binstall ripgrep",
-    "Zellij": "cargo install --locked zellij",
+    "Zellij": "cargo install --locked zellij"
   },
 
   "Other": {
@@ -32,13 +32,13 @@
     "Inkscape": "https://inkscape.org/en/release/",
     "Reshade": "https://reshade.me/",
     "Screen to Gif": "https://www.screentogif.com/",
-    "Subtitle Edit": "https://www.nikse.dk/subtitleedit",
+    "Subtitle Edit": "https://www.nikse.dk/subtitleedit"
   },
 
   "Enhancements": {
     "BetterDiscord": "https://betterdiscord.app/",
-    "SpotX": "iex \"& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/spotx-official.github.io/main/run.ps1') } -v 1.2.13.661.ga588f749-4064 -confirm_spoti_recomended_over -block_update_on\""
-    "BlockTheSpot": "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-Expression \"& { $(Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/mrpond/BlockTheSpot/master/install.ps1') } -UninstallSpotifyStoreEdition -UpdateSpotify\"",
+    "SpotX": "iex \"& { $(iwr -useb 'https://raw.githubusercontent.com/SpotX-Official/spotx-official.github.io/main/run.ps1') } -v 1.2.13.661.ga588f749-4064 -confirm_spoti_recomended_over -block_update_on\"",
+    "BlockTheSpot": "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-Expression \"& { $(Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/mrpond/BlockTheSpot/master/install.ps1') } -UninstallSpotifyStoreEdition -UpdateSpotify\""
   },
 
   "Browser Extensions": {
@@ -52,6 +52,6 @@
     "Spoof Timezone": "https://addons.mozilla.org/en-US/firefox/addon/spoof-timezone/",
     "WebGL Defender": "https://mybrowseraddon.com/webgl-defender.html",
     "Location Guard": "https://github.com/chatziko/location-guard",
-    "Cookies": "https://github.com/hrdl-github/cookies-txt",
+    "Cookies": "https://github.com/hrdl-github/cookies-txt"
   }
 }
