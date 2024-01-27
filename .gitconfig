@@ -11,3 +11,4 @@
 	defaultBranch = master
 [core]
 	autocrlf = input
+	editor = nvim
