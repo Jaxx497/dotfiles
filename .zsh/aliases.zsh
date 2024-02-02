@@ -4,6 +4,7 @@ alias zrc='source ~/.zshrc && clear'
 # Python shortcuts
 alias py=python3
 alias python=python3
+alias px="python3 main.py"
 
 # Zypper shortcuts
 alias zyp='sudo zypper in'

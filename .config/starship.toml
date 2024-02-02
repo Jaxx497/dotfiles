@@ -71,4 +71,4 @@ format = "[$symbol($version )]($style)"
 
 [python]
 symbol = ' '
-format = "[$symbol($version )]($style)"
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
