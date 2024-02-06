@@ -16,6 +16,7 @@ alias nv='nvim .'
 alias nvl="NVIM_APPNAME=nvimlite nvim"
 alias nvco='cd ~/.config/nvim && nvim .'
 alias nvz='nvim ~/.zshrc'
+alias nvw='nvim ~/.wezterm.lua'
 
 alias ff='fastfetch'
 alias cht='time zsh -i -c exit'

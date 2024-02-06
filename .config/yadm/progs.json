@@ -3,6 +3,7 @@
     "Alexandria": "https://github.com/btpf/Alexandria/tree/main#Download",
     "BetterDiscord": "https://betterdiscord.app/",
     "Discord": "https://discord.gg/",
+    "Eww": "https://github.com/elkowar/eww",
     "HxD": "https://mh-nexus.de/en/hxd/",
     "Inkscape": "https://inkscape.org/en/release/",
     "MegaBasterd": "https://github.com/tonikelope/megabasterd",
@@ -12,6 +13,7 @@
     "ReShade": "https://reshade.me/",
     "ScreenToGif": "https://www.screentogif.com/",
     "Subtitle Edit": "https://www.nikse.dk/subtitleedit",
+    "Wezterm": "https://wezfurlong.org/wezterm/installation.html",
     "VLC": "https://www.videolan.org/"
   },
   "Favorite CLI Tools": {
@@ -19,11 +21,9 @@
     "fd": "$ cargo install fd-find",
     "NuShell": "$ cargo install nu --locked --features=dataframe",
     "RipGrep": "$ cargo binstall ripgrep",
-    "Zellij": "$ cargo install --locked zellij",
     "+++++": "====================",
     "FFMPEG": "https://ffmpeg.org/download.html",
     "MPV": "https://mpv.io/installation/",
-    "Neofetch": "https://github.com/dylanaraps/neofetch",
     "Neovim": "https://github.com/neovim/neovim",
     "Pandoc": "https://pandoc.org/installing.html",
     "Ranger": "https://github.com/ranger/ranger",
@@ -31,7 +31,8 @@
     "Tmux": "https://github.com/tmux/tmux",
     "Yadm": "https://yadm.io/docs/",
     "YT-DLP": "https://github.com/yt-dlp/yt-dlp",
-    "Zsh": "Figure it out"
+    "Zsh": "Figure it out",
+    "Other": ["Cava", "fastfetch", "zellij"]
   },
   "Programming": {
     "Node": "https://nodejs.org/en",
@@ -40,6 +41,7 @@
   },
   "Enhancements": {
     "SpotX": "https://github.com/SpotX-Official/SpotX",
+    "SpotX BASH": "bash <(curl -sSL https://spotx-official.github.io/run.sh)",
     "BlockTheSpot": "https://github.com/mrpond/BlockTheSpot"
   },
   "Browser Extensions": {

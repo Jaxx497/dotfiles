@@ -35,26 +35,30 @@ local function split_nav(resize_or_move, key)
     }
 end
 
+wezterm.on("window-focus-changed", function()
+    os.execute(
+        'xdotool search -classname org.wezfurlong.wezterm | xargs -I{} xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id {}')
+end)
 
 return {
     font =
-        wezterm.font('JetBrains Mono', { weight = "Bold" }),
-    font_size = 10,
-    line_height = 1.2,
+        wezterm.font('SaucecodePro NFM SemiBold'),
+    font_size = 11,
 
     color_scheme = 'Monokai Vivid',
     inactive_pane_hsb = {
-        saturation = 0.8,
+        saturation = 0.9,
         brightness = 0.7
     },
-    -- window_background_opacity = 0.8,
+    -- window_background_opacity = 0.85,
+    -- text_background_opacity = 0.7,
 
     scrollback_lines = 2000,
     adjust_window_size_when_changing_font_size = false,
     hide_tab_bar_if_only_one_tab = true,
 
     window_frame = {
-        font = wezterm.font { family = 'Noto Sans', weight = 'Regular' },
+        font = wezterm.font { family = 'Hack Nerd Font Mono', weight = 'Regular' },
     },
 
     keys = {
@@ -64,10 +68,13 @@ return {
         split_nav('move', 'k'),
         split_nav('move', 'l'),
         -- -- resize panes
-        -- split_nav('resize', 'h'),
-        -- split_nav('resize', 'j'),
-        -- split_nav('resize', 'k'),
-        -- split_nav('resize', 'l'),
-    },
+        split_nav('resize', 'h'),
+        split_nav('resize', 'j'),
+        split_nav('resize', 'k'),
+        split_nav('resize', 'l'), 
+    { key = 'PageUp', mods = 'SHIFT', action = act.ScrollByPage(-0.5) },
+    { key = 'PageDown', mods = 'SHIFT', action = act.ScrollByPage(0.5) },
+},
+
 
 }

@@ -38,3 +38,5 @@ bindkey "\C-j" autosuggest-execute
 bindkey "\C-k" up-line-or-search
 bindkey "\C-l" autosuggest-accept
 bindkey -M viins 'kj' vi-cmd-mode
+
+export PATH=$PATH:/home/jack/.spicetify
