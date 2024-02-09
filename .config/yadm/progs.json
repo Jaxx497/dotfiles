@@ -12,6 +12,7 @@
     "QBitTorrent": "https://www.qbittorrent.org/download",
     "ReShade": "https://reshade.me/",
     "ScreenToGif": "https://www.screentogif.com/",
+    "Spotify": "https://spotify.com/",
     "Subtitle Edit": "https://www.nikse.dk/subtitleedit",
     "Wezterm": "https://wezfurlong.org/wezterm/installation.html",
     "VLC": "https://www.videolan.org/"
@@ -32,7 +33,7 @@
     "Yadm": "https://yadm.io/docs/",
     "YT-DLP": "https://github.com/yt-dlp/yt-dlp",
     "Zsh": "Figure it out",
-    "Other": ["Cava", "fastfetch", "zellij"]
+    "Other": ["Cava", "fastfetch", "zellij", "ncmpcpp", "jq"]
   },
   "Programming": {
     "Node": "https://nodejs.org/en",
@@ -42,7 +43,8 @@
   "Enhancements": {
     "SpotX": "https://github.com/SpotX-Official/SpotX",
     "SpotX BASH": "bash <(curl -sSL https://spotx-official.github.io/run.sh)",
-    "BlockTheSpot": "https://github.com/mrpond/BlockTheSpot"
+    "BlockTheSpot": "https://github.com/mrpond/BlockTheSpot",
+    "Spicetify": "https://github.com/spicetify/spicetify-cli"
   },
   "Browser Extensions": {
     "Bypass Paywalls": "https://github.com/iamadamdev/bypass-paywalls-chrome",
