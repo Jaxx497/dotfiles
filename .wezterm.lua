@@ -42,8 +42,8 @@ end)
 
 return {
     font =
-        wezterm.font('SaucecodePro NFM SemiBold'),
-    font_size = 11,
+        wezterm.font('SauceCodePro Nerd Font Mono'),
+    font_size = 10,
 
     color_scheme = 'Monokai Vivid',
     inactive_pane_hsb = {
@@ -71,10 +71,10 @@ return {
         split_nav('resize', 'h'),
         split_nav('resize', 'j'),
         split_nav('resize', 'k'),
-        split_nav('resize', 'l'), 
-    { key = 'PageUp', mods = 'SHIFT', action = act.ScrollByPage(-0.5) },
-    { key = 'PageDown', mods = 'SHIFT', action = act.ScrollByPage(0.5) },
-},
+        split_nav('resize', 'l'),
+        { key = 'PageUp',   mods = 'SHIFT', action = act.ScrollByPage(-0.5) },
+        { key = 'PageDown', mods = 'SHIFT', action = act.ScrollByPage(0.5) },
+    },
 
 
 }
