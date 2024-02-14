@@ -51,6 +51,7 @@
     "RipGrep": "$ cargo install ripgrep",
     "Zoxide": "$ cargo install zoxide --locked",
     "+++++": "====================",
+    "Direnv": "https://direnv.net/docs/installation.html",
     "FFMPEG": "https://ffmpeg.org/download.html",
     "MPV": "https://mpv.io/installation/",
     "Neovim": "https://github.com/neovim/neovim",
