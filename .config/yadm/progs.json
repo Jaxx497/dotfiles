@@ -23,7 +23,6 @@
     "Subtitle Edit": "https://www.nikse.dk/subtitleedit",
     "Synology Assistant": "https://www.synology.com/en-br/support/download",
     "TRON Script": "https://github.com/bmrf/tron",
-    "VLC": "https://www.videolan.org/",
     "Video Thumbnails Maker": "https://www.videohelp.com/software/Video-Thumbnails-Maker",
     "W11- ThisIsWin11": "https://github.com/builtbybel/ThisIsWin11",
     "W11- StartAllBack": "https://www.startallback.com/",
@@ -40,6 +39,7 @@
       "Spotify",
       "SublimeText",
       "Rufus",
+      "VLC",
       "VSCode",
       "WSL"
     ]

@@ -2,6 +2,7 @@ HISTFILE=~/.histfile
 HISTSIZE=100000
 SAVEHIST=100000
 unsetopt beep
+unsetopt PROMPT_SP
 
 source ~/.profile
 export ZSH=$HOME/.zsh
