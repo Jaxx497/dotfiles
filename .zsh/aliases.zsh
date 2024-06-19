@@ -15,5 +15,5 @@ alias nvw='nvim ~/.wezterm.lua'
 
 alias ff='fastfetch'
 alias cht='time zsh -i -c exit'
-alias rg='rg -S'
-alias rgf='rg --files | rg'
+
+alias soulseek='QT_QPA_PLATFORM=xcb soulseekqt'

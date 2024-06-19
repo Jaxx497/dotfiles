@@ -45,6 +45,7 @@
     ]
   },
   "Favorite CLI Tools": {
+    "Bat": "cargo install --locked bat",
     "Eza": "$ cargo install eza",
     "fd": "$ cargo install fd-find",
     "NuShell": "$ cargo install nu --locked --features=dataframe",
