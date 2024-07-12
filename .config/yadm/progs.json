@@ -21,6 +21,7 @@
     "Soulseek": "http://www.slsknet.org/news/node/1",
     "Speccy": "https://www.ccleaner.com/speccy",
     "Subtitle Edit": "https://www.nikse.dk/subtitleedit",
+    "Syncthing": "https://syncthing.net",
     "Synology Assistant": "https://www.synology.com/en-br/support/download",
     "TRON Script": "https://github.com/bmrf/tron",
     "Video Thumbnails Maker": "https://www.videohelp.com/software/Video-Thumbnails-Maker",
@@ -45,6 +46,7 @@
     ]
   },
   "Favorite CLI Tools": {
+    "Bat": "cargo install --locked bat",
     "Eza": "$ cargo install eza",
     "fd": "$ cargo install fd-find",
     "NuShell": "$ cargo install nu --locked --features=dataframe",
@@ -83,7 +85,8 @@
     "SpotX": "https://github.com/SpotX-Official/SpotX",
     "SpotX BASH": "bash <(curl -sSL https://spotx-official.github.io/run.sh)",
     "BlockTheSpot": "https://github.com/mrpond/BlockTheSpot",
-    "Spicetify": "https://spicetify.app/docs/advanced-usage/installation/"
+    "Spicetify": "https://spicetify.app/docs/advanced-usage/installation/",
+    "Revanced Manager": "https://revanced.app"
   },
   "Browser Extensions": {
     "Bypass Paywalls": "https://github.com/iamadamdev/bypass-paywalls-chrome",
