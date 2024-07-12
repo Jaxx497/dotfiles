@@ -12,7 +12,7 @@ export TERM=xterm-256color
 
 # Customize completion behavior
 zstyle ':completion:*' menu select
-zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=* l:|=*'
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=* l:|=*'
 zstyle ':completion:*' special-dirs true
 zstyle ':completion:*' list-colors ''
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
@@ -38,6 +38,4 @@ bindkey "^[[Z" autosuggest-execute
 bindkey "\C-j" autosuggest-execute
 bindkey "\C-k" up-line-or-search
 bindkey "\C-l" autosuggest-accept
-bindkey -M viins 'kj' vi-cmd-mode
-
-export PATH=$PATH:/home/jack/.spicetify
+# bindkey -M viins 'kj' vi-cmd-mode
