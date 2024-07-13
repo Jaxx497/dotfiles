@@ -4,7 +4,7 @@ SAVEHIST=100000
 unsetopt beep
 unsetopt PROMPT_SP
 
-# source ~/.profile
+source ~/.profile
 export ZSH=$HOME/.zsh
 export PATH=$HOME/bin:$PATH
 export KEYTIMEOUT=50;
@@ -38,10 +38,8 @@ bindkey "^[[Z" autosuggest-execute
 bindkey "\C-j" autosuggest-execute
 bindkey "\C-k" up-line-or-search
 bindkey "\C-l" autosuggest-accept
-<<<<<<< HEAD
+
 # bindkey -M viins 'kj' vi-cmd-mode
-=======
-bindkey -M viins 'kj' vi-cmd-mode
 
 export PATH=$PATH:/home/jack/.spicetify
 
