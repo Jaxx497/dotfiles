@@ -57,6 +57,7 @@
     "FFMPEG": "https://ffmpeg.org/download.html",
     "MPV": "https://mpv.io/installation/",
     "Neovim": "https://github.com/neovim/neovim",
+    "Other": [
     "Pandoc": "https://pandoc.org/installing.html",
     "Ranger": "https://github.com/ranger/ranger",
     "RipGrep-All": "https://github.com/phiresky/ripgrep-all",
@@ -64,12 +65,12 @@
     "Yadm": "https://yadm.io/docs/",
     "YT-DLP": "https://github.com/yt-dlp/yt-dlp",
     "Zsh": "Figure it out",
-    "Other": [
       "Cava",
       "fastfetch",
       "git",
       "jq",
       "ncmpcpp",
+      "pavucontrol",
       "RipGrepAll",
       "zellij",
       "Zola"
