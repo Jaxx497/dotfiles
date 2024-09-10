@@ -57,7 +57,6 @@
     "FFMPEG": "https://ffmpeg.org/download.html",
     "MPV": "https://mpv.io/installation/",
     "Neovim": "https://github.com/neovim/neovim",
-    "Other": [
     "Pandoc": "https://pandoc.org/installing.html",
     "Ranger": "https://github.com/ranger/ranger",
     "RipGrep-All": "https://github.com/phiresky/ripgrep-all",
@@ -65,6 +64,7 @@
     "Yadm": "https://yadm.io/docs/",
     "YT-DLP": "https://github.com/yt-dlp/yt-dlp",
     "Zsh": "Figure it out",
+    "Other": [
       "Cava",
       "fastfetch",
       "git",
@@ -101,5 +101,14 @@
     "Spoof Timezone": "https://addons.mozilla.org/en-US/firefox/addon/spoof-timezone/",
     "uBlock Origin": "https://ublockorigin.com/",
     "WebGL Defender": "https://mybrowseraddon.com/webgl-defender.html"
+  },
+  "Apps": {
+    "AmbientMusicMod": "https://github.com/KieronQuinn/AmbientMusicMod",
+    "BreezyWeather": "https://github.com/breezy-weather/breezy-weather",
+    "Revanced": "https://revanced.app",
+    "Xmanager": "https://www.xmanagerapp.com/"
+  },
+  "Websites": {
+    "neverssl": "https://neverssl.com"
   }
 }

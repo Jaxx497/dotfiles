@@ -20,3 +20,4 @@ alias rgf='rg --files | rg'
 alias cat='bat'
 
 alias soulseek='QT_QPA_PLATFORM=xcb soulseekqt'
+alias sleep='systemctl suspend'
