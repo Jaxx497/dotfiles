@@ -1,0 +1,11 @@
+--follow
+--smart-case
+--line-number
+--color=always
+
+--glob=!**/venv/**
+--glob=!**/.venv/**
+--glob=!**/env/**
+--glob=!**/.env/**
+--glob=!**/node_modules/**
+
