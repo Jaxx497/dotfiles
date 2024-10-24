@@ -31,9 +31,9 @@ Applications & Tools:
     Inkscape: https://inkscape.org/en/release/
     IntelliJ: https://www.jetbrains.com/idea/download/
     Kodi: https://kodi.tv/download/
+    MegaBasterd: https://github.com/tonikelope/megabasterd/
     MKVToolNix: https://mkvtoolnix.download/downloads.html/
     MPV: https://mpv.io/installation/
-    MegaBasterd: https://github.com/tonikelope/megabasterd/
     Neovim: https://github.com/neovim/neovim/
     OCCT: https://www.ocbase.com/download/
     OpenRGB: https://openrgb.org/releases.html/
@@ -49,8 +49,8 @@ Applications & Tools:
     Subtitle Edit: https://www.nikse.dk/subtitleedit/
     Syncthing: https://syncthing.net/
     ThisIsWin11: https://github.com/builtbybel/ThisIsWin11/
-    VLC: Install from package manager/
     Video Thumbnails Maker: https://www.videohelp.com/software/Video-Thumbnails-Maker/
+    VLC: Install from package manager/
 
   Programming:
     Java: https://www.java.com/download/ie_manual.jsp/
@@ -61,26 +61,27 @@ Applications & Tools:
   Enhancements:
     BetterDiscord: https://betterdiscord.app/
     BlockTheSpot: https://github.com/mrpond/BlockTheSpot/
+    Spicetify: https://spicetify.app/docs/advanced-usage/installation/
     SpotX: https://github.com/SpotX-Official/SpotX/
     SpotX BASH: bash <(curl -sSL https://spotx-official.github.io/run.sh)
-    Spicetify: https://spicetify.app/docs/advanced-usage/installation/
+
     KMS_VL_ALL_AIO: https://github.com/abbodi1406/KMS_VL_ALL_AIO/
     Microsoft Activatiomn Scripts: https://github.com/massgravel/Microsoft-Activation-Scripts/
 
 Browser Related:
   Websites:
-    Paywall Block Bypass: https://12ft.io/
     Medium Paywall Bypass: https://freedium.cfd/
     Nerd Fonts: https://nerdfonts.com/font-downloads/
     NeverSSL: https://neverssl.com/
+    Paywall Block Bypass: https://12ft.io/
 
   Privacy Plugins:
-    uBlock Origin: https://ublockorigin.com/
-    Privacy Badger: https://privacybadger.org/
     Canvas Blocker: https://github.com/kkapsner/CanvasBlocker/
     Location Guard: https://github.com/chatziko/location-guard/
-    WebGL Defender: https://mybrowseraddon.com/webgl-defender.html/
+    Privacy Badger: https://privacybadger.org/
     Spoof Timezone: https://addons.mozilla.org/en-US/firefox/addon/spoof-timezone/
+    uBlock Origin: https://ublockorigin.com/
+    WebGL Defender: https://mybrowseraddon.com/webgl-defender.html/
 
   Other Plugins:
     Bypass Paywalls: https://github.com/iamadamdev/bypass-paywalls-chrome/
@@ -89,7 +90,7 @@ Browser Related:
     Return YT Dislikes: https://returnyoutubedislike.com/
     Sponsorblock: https://sponsor.ajay.app/
 
-  CSS: https://github.com/soulhotel/FF-ULTIMA/
+  Firefox CSS Theme: https://github.com/soulhotel/FF-ULTIMA/
 
 Mobile Apps:
   AmbientMusicMod: https://github.com/KieronQuinn/AmbientMusicMod/
@@ -111,6 +112,7 @@ Packages:
     - fastfetch
     - fd
     - ffmpeg
+    - file
     - firefox
     - flake8
     - git
@@ -144,6 +146,7 @@ Packages:
     - zsh
 
   aur:
+    - basedpyright
     - ffsend-bin
     - nordvpn-bin
     - soulseekqt
