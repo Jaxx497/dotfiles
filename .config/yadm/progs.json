@@ -2,10 +2,8 @@
   "Favorite Apps": {
     "7Zip": "https://www.7-zip.org/download.html",
     "Alexandria": "https://github.com/btpf/Alexandria/tree/main#Download",
-    "BetterDiscord": "https://betterdiscord.app/",
     "DaVinci Resolve": "https://www.blackmagicdesign.com/event/davinciresolvedownload",
     "Dolphin": "https://dolphin-emu.org/download/",
-    "Eww": "https://github.com/elkowar/eww",
     "HWMonitor": "https://www.cpuid.com/softwares/hwmonitor-pro.html",
     "HxD": "https://mh-nexus.de/en/hxd/",
     "Inkscape": "https://inkscape.org/en/release/",
@@ -28,7 +26,6 @@
     "Video Thumbnails Maker": "https://www.videohelp.com/software/Video-Thumbnails-Maker",
     "W11- ThisIsWin11": "https://github.com/builtbybel/ThisIsWin11",
     "W11- StartAllBack": "https://www.startallback.com/",
-    "Wezterm": "https://wezfurlong.org/wezterm/installation.html",
     "Obv": [
       "Blender",
       "Discord",
@@ -42,7 +39,6 @@
       "SublimeText",
       "Rufus",
       "VLC",
-      "VSCode",
       "WSL"
     ]
   },
@@ -55,16 +51,14 @@
     "Zoxide": "$ cargo install zoxide --locked",
     "+++++": "====================",
     "Direnv": "https://direnv.net/docs/installation.html",
-    "FFMPEG": "https://ffmpeg.org/download.html",
+    "ffmpeg": "https://ffmpeg.org/download.html",
     "MPV": "https://mpv.io/installation/",
     "Neovim": "https://github.com/neovim/neovim",
     "Pandoc": "https://pandoc.org/installing.html",
-    "Ranger": "https://github.com/ranger/ranger",
     "RipGrep-All": "https://github.com/phiresky/ripgrep-all",
-    "Tmux": "https://github.com/tmux/tmux",
     "Yadm": "https://yadm.io/docs/",
+    "Yazi": "tbd",
     "YT-DLP": "https://github.com/yt-dlp/yt-dlp",
-    "Zsh": "Figure it out",
     "Other": [
       "Cava",
       "fastfetch",
@@ -73,7 +67,6 @@
       "ncmpcpp",
       "pavucontrol",
       "RipGrepAll",
-      "zellij",
       "Zola"
     ]
   },
@@ -84,6 +77,7 @@
     "Rust": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
   },
   "Enhancements": {
+    "BetterDiscord": "https://betterdiscord.app/",
     "SpotX": "https://github.com/SpotX-Official/SpotX",
     "SpotX BASH": "bash <(curl -sSL https://spotx-official.github.io/run.sh)",
     "BlockTheSpot": "https://github.com/mrpond/BlockTheSpot",
@@ -103,17 +97,58 @@
     "uBlock Origin": "https://ublockorigin.com/",
     "WebGL Defender": "https://mybrowseraddon.com/webgl-defender.html"
   },
-  "Apps": {
+  "Mobile Apps": {
     "AmbientMusicMod": "https://github.com/KieronQuinn/AmbientMusicMod",
     "BreezyWeather": "https://github.com/breezy-weather/breezy-weather",
     "Revanced": "https://revanced.app",
     "Xmanager": "https://www.xmanagerapp.com/"
   },
-  "Websites": {
-    "neverssl": "https://neverssl.com"
-  },
+  "Websites": ["12ft.io/", "https://neverssl.com/", "https://freedium.cfd/"],
   "Packages": {
-    "pacman": "base base-devel bat blueman bluez bpytop csvlens cliphist eza fastfetch fd firefox flake8 git github-cli jq kitty less libpulse llvm luarocks mpv neovim nodejs npm pavucontrol pipewire python-black python-pip python-pynvim qbittorrent ripgrep sshfs syncthing thunar tokei wget yadm yazi yt-dlp zoxide zram-generator zsh",
-    "aur": "nordvpn-bin soulseekqt spicetify-cli"
+    "pacman": [
+      "base",
+      "base-devel",
+      "bat",
+      "blueman",
+      "bluez",
+      "bpytop",
+      "csvlens",
+      "cliphist",
+      "eza",
+      "fastfetch",
+      "fd",
+      "ffmpeg",
+      "firefox",
+      "flake8",
+      "git",
+      "github-cli",
+      "jq",
+      "kitty",
+      "llvm",
+      "luarocks",
+      "mpv",
+      "nautilus",
+      "neovim",
+      "nodejs",
+      "npm",
+      "pavucontrol",
+      "pipewire",
+      "python-black",
+      "python-pip",
+      "python-pynvim",
+      "qbittorrent",
+      "ripgrep",
+      "syncthing",
+      "tokei",
+      "waybar",
+      "wget",
+      "yadm",
+      "yazi",
+      "yt-dlp",
+      "zoxide",
+      "zram-generator",
+      "zsh"
+    ],
+    "aur": "nordvpn-bin ffsend-bin soulseekqt spicetify-cli"
   }
 }
