@@ -113,7 +113,7 @@
     "neverssl": "https://neverssl.com"
   },
   "Packages": {
-    "pacman": "base base-devel bat blueman bluez bpytop discord dolphin eza fastfetch fd firefox flake8 git github-cli jq kitty less libpulse llvm luarocks mpv neovim nodejs npm pavucontrol pipewire python-black python-pip python-pynvim qbittorrent ripgrep sshfs syncthing tmux tokei wget wofi yadm yazi yt-dlp zoxide zram-generator zsh",
+    "pacman": "base base-devel bat blueman bluez bpytop csvlens cliphist eza fastfetch fd firefox flake8 git github-cli jq kitty less libpulse llvm luarocks mpv neovim nodejs npm pavucontrol pipewire python-black python-pip python-pynvim qbittorrent ripgrep sshfs syncthing thunar tokei wget yadm yazi yt-dlp zoxide zram-generator zsh",
     "aur": "nordvpn-bin soulseekqt spicetify-cli"
   }
 }

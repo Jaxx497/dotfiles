@@ -46,7 +46,7 @@ format = '[ J]($style)'
 disabled = false
 
 [directory]
-# style = "fg:color_fg0 bg:color_yellow"
+# style = "fg:blue bg:white"
 style = "italic blue"
 format = "[ $path ]($style)"
 truncation_length = 3

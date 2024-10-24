@@ -32,15 +32,26 @@ _comp_options+=(globdots)
 
 [[ -f $ZSH/plugins.zsh ]] && source $ZSH/plugins.zsh
 [[ -f $ZSH/aliases.zsh ]] && source $ZSH/aliases.zsh
+[[ -f $ZSH/scripts.zsh ]] && source $ZSH/scripts.zsh
 
 bindkey -v
 bindkey "^[[Z" autosuggest-execute
 bindkey "\C-j" autosuggest-execute
 bindkey "\C-k" up-line-or-search
 bindkey "\C-l" autosuggest-accept
+bindkey "^H" backward-kill-word
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+# bindkey "^[f" forward-word
+# bindkey "^[b" backward-word
 
 # bindkey -M viins 'kj' vi-cmd-mode
 
 export PATH=$PATH:/home/jack/.spicetify
 
 ff
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PATH=$PATH:/home/jaxx/.spicetify
