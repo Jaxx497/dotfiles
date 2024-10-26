@@ -117,6 +117,10 @@ Packages:
     - flake8
     - git
     - github-cli
+    - hypridle
+    - hyprlock
+    - hyprpaper
+    - hyprshot
     - ImageMagick
     - jq
     - kitty
