@@ -13,6 +13,8 @@ alias nvco='cd ~/.config/nvim && nvim .'
 alias nvz='nvim ~/.zshrc'
 alias nvw='nvim ~/.wezterm.lua'
 
+alias ls='eza -a1 --icons'
+
 alias ff='clear && fastfetch'
 alias cht='time zsh -i -c exit'
 alias rg='rg -S'
