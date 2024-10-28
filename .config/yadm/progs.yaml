@@ -127,7 +127,7 @@ Packages:
     - llvm
     - luarocks
     - mpv
-    - nautilus
+    - nemo
     - neovim
     - nodejs
     - npm
@@ -145,6 +145,7 @@ Packages:
     - yadm
     - yazi
     - yt-dlp
+    - yq
     - zoxide
     - zram-generator
     - zsh
@@ -155,3 +156,4 @@ Packages:
     - nordvpn-bin
     - soulseekqt
     - spicetify-cli
+    - youtube-music-bin
