@@ -19,7 +19,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-
 
 autoload -Uz compinit; compinit
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+# PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
 if type rg &> /dev/null; then
   export FZF_DEFAULT_COMMAND='rg --files'
@@ -55,3 +55,10 @@ ff
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export PATH=$PATH:/home/jaxx/.spicetify
+
+# bun completions
+[ -s "/home/jaxx/.bun/_bun" ] && source "/home/jaxx/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

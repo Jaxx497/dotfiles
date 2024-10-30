@@ -1,8 +1,11 @@
-@import "macchiato.css";
+@import "macchiato";
 
 * {
-  font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  /*font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;*/
+  font-family: "IosevkaTerm Nerd Font Bold", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 900;
 }
 
 window#waybar {
@@ -32,9 +35,8 @@ button:hover {
 }
 
 #workspaces button {
-  padding: 0 5px;
-  background-color: transparent;
   color: #ffffff;
+  background-color: transparent;
 }
 
 #workspaces button:hover {
@@ -62,7 +64,7 @@ button:hover {
 #temperature,
 #network,
 #pulseaudio {
-  padding: 0 10px;
+  padding: 0 5px 0 5px;
 }
 
 #pulseaudio {
@@ -92,20 +94,22 @@ button:hover {
 .modules-right,
 .modules-left,
 .modules-center {
-  background-color: @base;
+  /*background-color: @base;*/
+  background-color: rgba(20, 20, 20, 1);
   border-radius: 15px;
 }
 .modules-right {
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 .modules-left {
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 .modules-center {
-  padding: 0 10px;
+  padding: 0 15px;
 }
+
 #battery.charging,
 #battery.plugged {
   color: @sapphire;
