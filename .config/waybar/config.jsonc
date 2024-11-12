@@ -1,18 +1,16 @@
 {
-    // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 30, // Waybar height (to be removed for auto height)
-    "spacing": 10, // Gaps between modules (4px)
-    // Choose the order of the modules
+    "spacing": 7, 
     "margin-top": 8,
     "margin-left": 10,
     "margin-right": 10,
     "modules-left": [
-        "hyprland/workspaces",
+        "hyprland/workspaces"
+        //"custom/sep"
+        //"hyprland/window",
+    ],
+    "modules-center": [
         "hyprland/window",
     ],
-    //"modules-center": [
-    //    "custom/media",
-    //],
     "modules-right": [
         "network",
         "backlight",
@@ -27,6 +25,11 @@
         "clock",
         "custom/power"
     ],
+
+    "custom/sep": {
+        "format": "|"
+    },
+
     "hyprland/workspaces": {
         "format": "{icon}",
         "all-outputs": false,
@@ -37,40 +40,7 @@
         },
         "sort-by-number": true
     },
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
-    "mpd": {
-        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ",
-        "format-disconnected": "Disconnected ",
-        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
-        "interval": 10,
-        "consume-icons": {
-            "on": " " // Icon shows only when "consume" is on
-        },
-        "random-icons": {
-            "off": "<span color=\"#f53c3c\"></span> ", // Icon grayed out when "random" is off
-            "on": " "
-        },
-        "repeat-icons": {
-            "on": " "
-        },
-        "single-icons": {
-            "on": "1 "
-        },
-        "state-icons": {
-            "paused": "",
-            "playing": ""
-        },
-        "tooltip-format": "MPD (connected)",
-        "tooltip-format-disconnected": "MPD (disconnected)"
-    },
+
     "idle_inhibitor": {
         "format": "{icon} ",
         "format-icons": {
@@ -78,12 +48,13 @@
             "deactivated": ""
         }
     },
+
     "tray": {
         "icon-size": 15,
-        "spacing": 12
+        "spacing": 18, 
     },
     "clock": {
-        // "timezone": "America/New_York",
+         "timezone": "America/Denver",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
@@ -104,7 +75,7 @@
     },
     "backlight": {
         // "device": "acpi_video1",
-        "format": "{icon} ",
+        "format": "{icon}  ",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
         "tooltip-format": "{percent}%",
     },
@@ -116,12 +87,9 @@
         },
         "format": "{icon} ",
         "format-full": "{icon} ",
-        "format-charging": " ",
+        "format-charging": "",
         "format-plugged": "" ,
-        "tooltip-format": "{capacity}%  ||  {time}",
-        //"format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
+        "tooltip-format": "{capacity}%   [{time}]",
         "format-icons": ["", "", "", "", ""]
     },
     "power-profiles-daemon": {
@@ -136,20 +104,18 @@
       }
     },
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": " ", 
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{signalStrength}% @ {essid}",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        //"format-alt": "{ifname}: {ipaddr}/{cidr}",
         //"on-click": "kitty iwctl"
     },
     "pulseaudio": {
         "format": "{icon}",
-        "format-bluetooth": "{icon} ",
-        "format-bluetooth-muted": "󰝟 {icon} ",
-        "format-muted": " 󰖁",
+        //"format-bluetooth": "{icon}",
+        //"format-bluetooth-muted": "󰝟 {icon}",
+        "format-muted": "󰖁",
         "format-icons": {
             "headphone": "",
             "phone": "",
@@ -161,12 +127,13 @@
     "hyprland/window": {
         "separate-outputs": false,
     	"rewrite": {
-            "(.*) — Mozilla Firefox": "󰈹   Firefox",
-            "(.*) Spotify": "󰓇   Spotify",
-            "(.*) YouTube Music": "󰎆   YouTube Music",
-            "nv": "   NeoVim",
-            "(.*)mpv": "   MPV",
-	    }
+            "(.*) — Mozilla Firefox": "󰈹\tFirefox",
+            "(.*) Spotify": "󰓇\tSpotify",
+            "(.*)YouTube Music": "󰎆\tYouTube Music",
+            "nv": "\tNeoVim",
+            "(.*)mpv": "\tMPV",
+            "cava": "󰺢\tCava"
+	}
     },
     "custom/media": {
         "format": "{icon} {text}",
