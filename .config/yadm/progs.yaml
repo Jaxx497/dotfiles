@@ -115,6 +115,7 @@ Packages:
     - file
     - firefox
     - flake8
+    - fuse
     - git
     - github-cli
     - hypridle
