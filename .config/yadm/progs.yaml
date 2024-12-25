@@ -115,7 +115,6 @@ Packages:
     - ffmpeg
     - file
     - firefox
-    - flake8
     - fuse
     - git
     - github-cli
@@ -135,11 +134,11 @@ Packages:
     - npm
     - pavucontrol
     - pipewire
-    - python-black
     - python-pip
     - python-pynvim
     - qbittorrent
     - ripgrep
+    - ruff
     - syncthing
     - tokei
     - waybar
