@@ -35,10 +35,18 @@
         "all-outputs": false,
         "on-click": "activate",
         "format-icons": {
-            "active": " ",
-            "default": " ",
+            // "active": " ",
+            // "urgent": " ",
+            // "default": " ",
+
+                "active": "",
+                "default": "",
+                "empty": ""
         },
-        "sort-by-number": true
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            "*" : [1,2,3,4]
+        }
     },
 
     "idle_inhibitor": {
@@ -51,7 +59,7 @@
 
     "tray": {
         "icon-size": 15,
-        "spacing": 18, 
+        "spacing": 16, 
     },
     "clock": {
          "timezone": "America/Denver",
@@ -113,8 +121,6 @@
     },
     "pulseaudio": {
         "format": "{icon}",
-        //"format-bluetooth": "{icon}",
-        //"format-bluetooth-muted": "󰝟 {icon}",
         "format-muted": "󰖁",
         "format-icons": {
             "headphone": "",
