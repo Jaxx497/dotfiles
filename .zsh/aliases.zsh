@@ -5,6 +5,7 @@ alias zrc='source ~/.zshrc && clear'
 alias py=python3
 alias python=python3
 alias px="python3 main.py"
+alias act="source ./venv/bin/activate"
 
 # Nvim shortcuts
 alias nv='nvim .'
