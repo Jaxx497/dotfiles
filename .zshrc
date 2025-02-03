@@ -8,7 +8,7 @@ source ~/.profile
 export ZSH=$HOME/.zsh
 export PATH=$HOME/bin:$PATH
 export KEYTIMEOUT=50;
-export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export TERM=xterm-256color
 
 # Customize completion behavior

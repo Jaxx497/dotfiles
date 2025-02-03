@@ -12,7 +12,7 @@ gx (){
 
 udnv () {
     # Download with error checking
-    if ! curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz; then
+    if ! curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.tar.gz; then
         echo "Download failed"
         return 1
     fi
@@ -20,14 +20,14 @@ udnv () {
     
     # Remove old installation and extract new one
     sudo rm -rf /opt/nvim
-    if ! sudo tar -C /opt -xzf nvim-linux64.tar.gz; then
+    if ! sudo tar -C /opt -xzf ./nvim-linux-x86_64.tar.gz; then
         echo "Extraction failed"
         return 1
     fi
     echo "Extracted contents to /opt"
     
     # Clean up downloaded archive
-    rm -f nvim-linux64.tar.gz
+    rm -f nvim-linux-x86_64.tar.gz
     echo "Cleaned up download"
     
     # Show version
