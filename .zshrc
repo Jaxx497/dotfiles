@@ -44,22 +44,6 @@ bindkey "^H" backward-kill-word
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
-# bindkey "^[f" forward-word
-# bindkey "^[b" backward-word
-
 # bindkey -M viins 'kj' vi-cmd-mode
 
-export PATH=$PATH:/home/jack/.spicetify
-
 ff
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-export PATH=$PATH:/home/jaxx/.spicetify
-
-# bun completions
-[ -s "/home/jaxx/.bun/_bun" ] && source "/home/jaxx/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
