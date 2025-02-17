@@ -24,6 +24,7 @@ Applications & Tools:
 
   GUI:
     7Zip: https://www.7-zip.org/download.html/
+    "Alexandria": "https://github.com/btpf/Alexandria/tree/main#Download"
     Blender: https://www.blender.org/download/
     DaVinci Resolve: https://www.blackmagicdesign.com/event/davinciresolvedownload
     Firefox: https://www.mozilla.org/en-US/firefox/
@@ -96,6 +97,7 @@ Browser Related:
 Mobile Apps:
   AmbientMusicMod: https://github.com/KieronQuinn/AmbientMusicMod/
   BreezyWeather: https://github.com/breezy-weather/breezy-weather/
+  "PurpleTV": "https://purpletv.aeong.win/"
   Revanced Manager: https://revanced.app/
   Xmanager: https://www.xmanagerapp.com/
 
@@ -152,8 +154,7 @@ Packages:
     - zsh
 
   aur:
-    - basedpyright
-    - ffsend-bin
+    - ffsend
     - nordvpn-bin
     - soulseekqt
     - spicetify-cli
