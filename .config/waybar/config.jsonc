@@ -62,8 +62,8 @@
         "spacing": 16, 
     },
     "clock": {
-         "timezone": "America/Denver",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>",
+        "timezone": "America/Denver",
+        "tooltip-format": "<big>{:%d %Y %B}</big>\n<tt><big>{calendar}</big></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
