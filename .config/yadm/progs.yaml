@@ -24,7 +24,7 @@ Applications & Tools:
 
   GUI:
     7Zip: https://www.7-zip.org/download.html/
-    "Alexandria": "https://github.com/btpf/Alexandria/tree/main#Download"
+    Alexandria: https://github.com/btpf/Alexandria/tree/main#Download
     Blender: https://www.blender.org/download/
     DaVinci Resolve: https://www.blackmagicdesign.com/event/davinciresolvedownload
     Firefox: https://www.mozilla.org/en-US/firefox/
@@ -33,6 +33,7 @@ Applications & Tools:
     Inkscape: https://inkscape.org/en/release/
     IntelliJ: https://www.jetbrains.com/idea/download/
     Kodi: https://kodi.tv/download/
+    Localsend: https://localsend.org/
     MegaBasterd: https://github.com/tonikelope/megabasterd/
     MKVToolNix: https://mkvtoolnix.download/downloads.html/
     MPV: https://mpv.io/installation/
@@ -45,6 +46,7 @@ Applications & Tools:
     Rufus: https://rufus.ie/
     ScreenToGif: https://www.screentogif.com/
     Soulseek: http://www.slsknet.org/news/node/1
+    Send: https://github.com/timvisee/send-instances/tree/master?tab=readme-ov-file#instances
     Speccy: https://www.ccleaner.com/speccy/
     StartAllBack: https://www.startallback.com/
     SublimeText: Install from package manager/
@@ -75,6 +77,7 @@ Browser Related:
     Medium Paywall Bypass: https://freedium.cfd/
     Nerd Fonts: https://nerdfonts.com/font-downloads/
     NeverSSL: https://neverssl.com/
+    PairDrop: https://pairdrop.net/
     Paywall Block Bypass: https://12ft.io/
 
   Privacy Plugins:
@@ -95,10 +98,15 @@ Browser Related:
   Firefox CSS Theme: https://github.com/soulhotel/FF-ULTIMA/
 
 Mobile Apps:
+  Alembicons: https://f-droid.org/en/packages/com.kaanelloed.iconeration/
   AmbientMusicMod: https://github.com/KieronQuinn/AmbientMusicMod/
   BreezyWeather: https://github.com/breezy-weather/breezy-weather/
-  "PurpleTV": "https://purpletv.aeong.win/"
+  Gallery: https://github.com/IacobIonut01/Gallery
+  Obtanium: https://github.com/ImranR98/Obtainium
+  Openlib: https://github.com/dstark5/Openlib
+  PurpleTV: https://purpletv.aeong.win/
   Revanced Manager: https://revanced.app/
+  Termux: https://github.com/termux/termux-app
   Xmanager: https://www.xmanagerapp.com/
 
 Packages:
