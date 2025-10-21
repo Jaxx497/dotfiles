@@ -11,6 +11,7 @@ Applications & Tools:
     fzf: https://github.com/junegunn/fzf/
     gallery-dl: https://github.com/mikf/gallery-dl
     jq: https://github.com/jqlang/jq/
+    libgen-downloader: https://github.com/obsfx/libgen-downloader
     MPV: https://mpv.io/installation/
     Pandoc: https://pandoc.org/installing.html/
     RipGrep-All: https://github.com/phiresky/ripgrep-all/
@@ -102,6 +103,7 @@ Mobile Apps:
   AmbientMusicMod: https://github.com/KieronQuinn/AmbientMusicMod/
   BreezyWeather: https://github.com/breezy-weather/breezy-weather/
   Gallery: https://github.com/IacobIonut01/Gallery
+  Metrolist: https://github.com/mostafaalagamy/Metrolist
   Obtanium: https://github.com/ImranR98/Obtainium
   Openlib: https://github.com/dstark5/Openlib
   PurpleTV: https://purpletv.aeong.win/
