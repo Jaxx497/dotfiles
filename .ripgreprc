@@ -7,5 +7,56 @@
 --glob=!**/.venv/**
 --glob=!**/env/**
 --glob=!**/.env/**
---glob=!**/node_modules/**
+--glob=!**/__pycache__/**
 
+# 🦀 Rust
+--glob=!**/target/**
+
+# 🐹 Go
+--glob=!**/bin/**
+--glob=!**/pkg/**
+--glob=!**/vendor/**
+
+# ☕ Java / Kotlin
+--glob=!**/out/**
+--glob=!**/build/**
+--glob=!**/target/**
+--glob=!**/.gradle/**
+--glob=!**/.idea/**
+
+# ⚙️ C / C++
+--glob=!**/build/**
+--glob=!**/dist/**
+--glob=!**/bin/**
+--glob=!**/obj/**
+--glob=!**/CMakeFiles/**
+--glob=!**/.vscode/**
+
+# 🌐 JavaScript / TypeScript / Node
+--glob=!**/node_modules/**
+--glob=!**/.next/**
+--glob=!**/dist/**
+--glob=!**/coverage/**
+
+# 📦 Common package & dependency caches
+--glob=!**/.cache/**
+--glob=!**/.cargo/**
+--glob=!**/.npm/**
+--glob=!**/.yarn/**
+--glob=!**/.pnpm-store/**
+--glob=!**/.local/**
+--glob=!**/.gradle/**
+--glob=!**/.m2/**
+
+# 🧩 Miscellaneous project/system folders
+--glob=!**/.git/**
+--glob=!**/.hg/**
+--glob=!**/.svn/**
+--glob=!**/.DS_Store
+--glob=!**/.idea/**
+--glob=!**/.vs/**
+--glob=!**/.vscode/**
+--glob=!**/.tox/**
+--glob=!**/.pytest_cache/**
+--glob=!**/.coverage/**
+--glob=!**/.mypy_cache/**
